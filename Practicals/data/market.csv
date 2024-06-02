@@ -1,0 +1,11 @@
+items
+bread,beer,milk
+milk,diaper
+bread,diaper
+beer,milk,diaper
+bread,beer,butter
+milk,butter
+bread,diaper,butter
+milk,diaper
+beer,butter
+bread,milk,diaper
