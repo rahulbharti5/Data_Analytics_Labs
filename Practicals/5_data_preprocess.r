@@ -22,4 +22,4 @@ print(df_clean)
 print(df_normalized)
 
 # Save data
-write_csv(df_clean, "./Practicals/data/preprocess_clean.csv")
+# write_csv(df_clean, "./Practicals/data/preprocess_clean.csv")

@@ -19,7 +19,8 @@ test_features <- test_data[, c("x1", "x2")]
 # Perform KNN classification
 knn_result <- knn(train_features, test_features, train_class, k = 3)
 
+cat(knn_result)
 # Plot results
-ggplot(test_data, aes(x = x1, y = x2, color = knn_result)) +
-  geom_point() +
-  labs(title = "KNN Classification")
+# ggplot(test_data, aes(x = x1, y = x2, color = knn_result)) +
+#   geom_point() +
+#   labs(title = "KNN Classification")

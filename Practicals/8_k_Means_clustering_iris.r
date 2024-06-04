@@ -3,7 +3,7 @@ library(ggplot2)
 
 # Load Iris data set
 data(iris)
-
+head(iris)
 # Perform K-Means clustering
 set.seed(123)
 kmeans_result <- kmeans(iris[, 1:4], centers = 3)
@@ -19,4 +19,4 @@ ggsave("./Practicals/kmeans_clusters.png", plot = p)
 
 cat("Plot saved as kmeans_clusters.png")
 
-  labs(title = "K-Means Clustering of Iris Data")
+labs(title = "K-Means Clustering of Iris Data")
